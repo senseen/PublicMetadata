@@ -3,14 +3,14 @@
   "updated_at": "2026-02-19",
   "modules": ["minerals", "redox"],
   "crops": [
-    { "id": "tomate", "label": "Tomate", "status": { "minerals": "disabled", "redox": "enabled" } },
-    { "id": "melon", "label": "Melon", "status": { "minerals": "enabled", "redox": "maintenance" } },
-    { "id": "ble", "label": "Blé", "status": { "minerals": "maintenance", "redox": "disabled" } },
+    { "id": "tomate", "label": "Tomate", "status": { "minerals": "enabled", "redox": "enabled" } },
+    { "id": "melon", "label": "Melon", "status": { "minerals": "disabled", "redox": "enabled" } },
+    { "id": "ble", "label": "Ble", "status": { "minerals": "enabled", "redox": "enabled" } },
     { "id": "vigne", "label": "Vigne", "status": { "minerals": "enabled", "redox": "enabled" } },
-    { "id": "mais", "label": "Maïs", "status": { "minerals": "disabled", "redox": "maintenance" } },
-    { "id": "colza", "label": "Colza", "status": { "minerals": "maintenance", "redox": "enabled" } },
-    { "id": "orange", "label": "Orange", "status": { "minerals": "enabled", "redox": "disabled" } },
-    { "id": "pomme_de_terre", "label": "Pomme de terre", "status": { "minerals": "disabled", "redox": "disabled" } },
-    { "id": "fraise", "label": "Fraise", "status": { "minerals": "enabled", "redox": "enabled" } }
+    { "id": "mais", "label": "Mais", "status": { "minerals": "enabled", "redox": "enabled" } },
+    { "id": "colza", "label": "Colza", "status": { "minerals": "enabled", "redox": "disabled" } },
+    { "id": "orange", "label": "Orange", "status": { "minerals": "disabled", "redox": "enabled" } },
+    { "id": "pomme_de_terre", "label": "Pomme de terre", "status": { "minerals": "enabled", "redox": "disabled" } },
+    { "id": "fraise", "label": "Fraise", "status": { "minerals": "enabled", "redox": "disabled" } }
   ]
 }

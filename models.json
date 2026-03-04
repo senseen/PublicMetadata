@@ -9,8 +9,8 @@
     { "id": "vigne", "label": "Vigne", "status": { "minerals": "enabled", "redox": "enabled" } },
     { "id": "mais", "label": "Mais", "status": { "minerals": "enabled", "redox": "enabled" } },
     { "id": "colza", "label": "Colza", "status": { "minerals": "enabled", "redox": "disabled" } },
-    { "id": "orange", "label": "Orange", "status": { "minerals": "enabled", "redox": "enabled" } },
+    { "id": "orange", "label": "Orange", "status": { "minerals": "disabled", "redox": "enabled" } },
     { "id": "pomme_de_terre", "label": "Pomme de terre", "status": { "minerals": "enabled", "redox": "disabled" } },
-    { "id": "fraise", "label": "Fraise", "status": { "minerals": "maintenance", "redox": "disabled" } }
+    { "id": "fraise", "label": "Fraise", "status": { "minerals": "enabled", "redox": "disabled" } }
   ]
 }

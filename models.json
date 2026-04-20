@@ -1,16 +1,16 @@
 {
-  "schema_version": "1.0",
-  "updated_at": "2026-02-19",
+  "schema_version": "1.1",
+  "updated_at": "2026-04-20",
   "modules": ["minerals", "redox"],
   "crops": [
-    { "id": "tomate", "label": "Tomate", "status": { "minerals": "enabled", "redox": "enabled" } },
-    { "id": "melon", "label": "Melon", "status": { "minerals": "disabled", "redox": "enabled" } },
-    { "id": "ble", "label": "Ble", "status": { "minerals": "enabled", "redox": "enabled" } },
-    { "id": "vigne", "label": "Vigne", "status": { "minerals": "enabled", "redox": "enabled" } },
-    { "id": "mais", "label": "Mais", "status": { "minerals": "enabled", "redox": "enabled" } },
-    { "id": "colza", "label": "Colza", "status": { "minerals": "enabled", "redox": "enabled" } },
-    { "id": "orange", "label": "Orange", "status": { "minerals": "disabled", "redox": "enabled" } },
-    { "id": "pomme_de_terre", "label": "Pomme de terre", "status": { "minerals": "enabled", "redox": "enabled" } },
-    { "id": "fraise", "label": "Fraise", "status": { "minerals": "disabled", "redox": "disabled" } }
+    { "id": "tomate", "label": "Tomate", "canBeInGreenHouse": true, "status": { "minerals": "enabled", "redox": "enabled" } },
+    { "id": "melon", "label": "Melon", "canBeInGreenHouse": true, "status": { "minerals": "disabled", "redox": "enabled" } },
+    { "id": "ble", "label": "Ble", "canBeInGreenHouse": false, "status": { "minerals": "enabled", "redox": "enabled" } },
+    { "id": "vigne", "label": "Vigne", "canBeInGreenHouse": false, "status": { "minerals": "enabled", "redox": "enabled" } },
+    { "id": "mais", "label": "Mais", "canBeInGreenHouse": false, "status": { "minerals": "enabled", "redox": "enabled" } },
+    { "id": "colza", "label": "Colza", "canBeInGreenHouse": false, "status": { "minerals": "enabled", "redox": "enabled" } },
+    { "id": "orange", "label": "Orange", "canBeInGreenHouse": false, "status": { "minerals": "disabled", "redox": "enabled" } },
+    { "id": "pomme_de_terre", "label": "Pomme de terre", "canBeInGreenHouse": false, "status": { "minerals": "enabled", "redox": "enabled" } },
+    { "id": "fraise", "label": "Fraise", "canBeInGreenHouse": true, "status": { "minerals": "disabled", "redox": "disabled" } }
   ]
 }

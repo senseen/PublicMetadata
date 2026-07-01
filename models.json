@@ -11,6 +11,6 @@
     { "id": "colza", "label": "Colza", "canBeInGreenHouse": false, "status": { "minerals": "enabled", "redox": "enabled" } },
     { "id": "orange", "label": "Orange", "canBeInGreenHouse": false, "status": { "minerals": "disabled", "redox": "enabled" } },
     { "id": "pomme_de_terre", "label": "Pomme de terre", "canBeInGreenHouse": false, "status": { "minerals": "enabled", "redox": "enabled" } },
-    { "id": "fraise", "label": "Fraise", "canBeInGreenHouse": true, "status": { "minerals": "enabled", "redox": "enabled" } }
+    { "id": "fraise", "label": "Fraise", "canBeInGreenHouse": true, "status": { "minerals": "enabled", "redox": "disabled" } }
   ]
 }

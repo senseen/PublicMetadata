@@ -1,3 +1,11 @@
 {
-  "underMaintenance": false
+  "underMaintenance": false,
+  "message": {
+    "en": "Online services are temporarily unavailable. You can continue using offline mode.",
+    "fr": "Les services en ligne sont temporairement indisponibles. Vous pouvez continuer à utiliser le mode hors ligne.",
+    "es": "Los servicios en línea no están disponibles temporalmente. Puede seguir utilizando el modo sin conexión.",
+    "zh": "在线服务暂时不可用。您可以继续使用离线模式。",
+    "it": "I servizi online sono temporaneamente non disponibili. Puoi continuare a utilizzare la modalità offline.",
+    "pt": "Os serviços online estão temporariamente indisponíveis. Pode continuar a utilizar o modo offline."
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "underMaintenance": true,
+  "underMaintenance": false,
   "message": {
     "en": "Online services are temporarily unavailable. You can continue using offline mode.",
     "fr": "Les services en ligne sont temporairement indisponibles. Vous pouvez continuer à utiliser le mode hors ligne.",

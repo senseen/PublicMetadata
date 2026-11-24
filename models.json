@@ -1,16 +1,17 @@
 {
-  "schema_version": "1.1",
-  "updated_at": "2026-04-20",
+  "schema_version": "1.2",
+  "updated_at": "2026-11-24",
   "modules": ["minerals", "redox"],
   "crops": [
-    { "id": "tomate", "label": "Tomate", "canBeInGreenHouse": true, "status": { "minerals": "enabled", "redox": "enabled" }, "scanTypes": ["leaf","fruit"] },
-    { "id": "melon", "label": "Melon", "canBeInGreenHouse": true, "status": { "minerals": "disabled", "redox": "enabled" }, "scanTypes": ["leaf"]  },
-    { "id": "ble", "label": "Ble", "canBeInGreenHouse": false, "status": { "minerals": "enabled", "redox": "enabled" }, "scanTypes": ["leaf"]  },
-    { "id": "vigne", "label": "Vigne", "canBeInGreenHouse": false, "status": { "minerals": "enabled", "redox": "enabled" }, "scanTypes": ["leaf"]  },
-    { "id": "mais", "label": "Mais", "canBeInGreenHouse": false, "status": { "minerals": "enabled", "redox": "enabled" }, "scanTypes": ["leaf"]  },
-    { "id": "colza", "label": "Colza", "canBeInGreenHouse": false, "status": { "minerals": "enabled", "redox": "enabled" }, "scanTypes": ["leaf"]  },
-    { "id": "orange", "label": "Orange", "canBeInGreenHouse": false, "status": { "minerals": "disabled", "redox": "enabled" }, "scanTypes": ["leaf"]  },
-    { "id": "pomme_de_terre", "label": "Pomme de terre", "canBeInGreenHouse": false, "status": { "minerals": "enabled", "redox": "enabled" }, "scanTypes": ["leaf"]  },
-    { "id": "fraise", "label": "Fraise", "canBeInGreenHouse": true, "status": { "minerals": "enabled", "redox": "disabled" }, "scanTypes": ["leaf"]  }
+    {"id": "tomate", "label": "Tomate", "canBeInGreenHouse": true, "status": {"minerals": "enabled", "redox": "enabled"}, "scanTypes": ["leaf", "fruit"], "region": "worldwide"},
+    {"id": "melon", "label": "Melon", "canBeInGreenHouse": true, "status": {"minerals": "disabled", "redox": "enabled"}, "scanTypes": ["leaf"], "region": "worldwide"},
+    {"id": "ble", "label": "Ble", "canBeInGreenHouse": false, "status": {"minerals": "enabled", "redox": "enabled"}, "scanTypes": ["leaf"], "region": "worldwide"},
+    {"id": "vigne", "label": "Vigne", "canBeInGreenHouse": false, "status": {"minerals": "enabled", "redox": "enabled"}, "scanTypes": ["leaf"], "region": "worldwide"},
+    {"id": "mais", "label": "Mais", "canBeInGreenHouse": false, "status": {"minerals": "enabled", "redox": "enabled"}, "scanTypes": ["leaf"], "region": "worldwide"},
+    {"id": "colza", "label": "Colza", "canBeInGreenHouse": false, "status": {"minerals": "enabled", "redox": "enabled"}, "scanTypes": ["leaf"], "region": "worldwide"},
+    {"id": "orange", "label": "Orange", "canBeInGreenHouse": false, "status": {"minerals": "disabled", "redox": "enabled"}, "scanTypes": ["leaf"], "region": "worldwide"},
+    {"id": "pomme_de_terre", "label": "Pomme de terre", "canBeInGreenHouse": false, "status": {"minerals": "enabled", "redox": "enabled"}, "scanTypes": ["leaf"], "region": "worldwide"},
+    {"id": "fraise", "label": "Fraise", "canBeInGreenHouse": true, "status": {"minerals": "enabled", "redox": "disabled"}, "scanTypes": ["leaf"], "region": "worldwide"},
+    {"id": "myrtille", "label": "Myrtille", "canBeInGreenHouse": false, "region": "usa", "status": {"minerals": "enabled", "redox": "disabled"}, "scanTypes": ["leaf"]}
   ]
 }
